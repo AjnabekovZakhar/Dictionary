@@ -114,9 +114,9 @@ int main()
     catch(runtime_error e){
         cout << e.what() << endl;
     }
-    cout << "correct text" << endl;
+    cout << "correct text: " << endl;
     for (auto s : output_text) cout << s << endl;
-    cout<< "dictionary" << endl;
+    cout<< "dictionary: " << endl;
     for (auto f : dictionary) cout << f << endl;
 
 
